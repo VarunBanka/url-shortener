@@ -13,3 +13,5 @@ https://www.python.org/downloads/
 ```shell
 pip install pyshorteners
 ```
+# Usage:
+Run url_shortener.py
