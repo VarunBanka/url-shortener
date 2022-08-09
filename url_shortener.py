@@ -1,4 +1,4 @@
-#dont steal my code ffs
+import pyshorteners
 def start():
     print("*     *   *****  *")
     print("*     *   *  *   *")
@@ -11,11 +11,11 @@ def start():
     print("     ****   ******   *  *   ****     *     ***     *  *  *   ***     *****")
     print("        *   *    *   *  *   **       *     *       *   * *   *       **")
     print("     ****   *    *   ****   * *      *     *****   *    **   *****   * *")
- print(" ")
-    import pyshorteners
+
     link = input("Enter the link:   ")
     s = pyshorteners.Shortener()
-    #code by DevVarun (malware)
+    print("here's your link \n")
+    #code by Varun Banka
     print(s.tinyurl.short(link))
 start()
 
@@ -31,7 +31,3 @@ def restart_and_exit():
 
 restart_and_exit()
 
-xyz_pro_plus = 1
-
-while (xyz_pro_plus < 2):
-    restart_and_exit()
